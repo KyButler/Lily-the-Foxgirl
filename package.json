@@ -1,0 +1,23 @@
+{
+  "name": "lily-the-foxgirl",
+  "version": "1.0.0",
+  "description": "A foxgirl that helps around KyButler's Server",
+  "main": "bot.js",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KyButler/Lily-the-Foxgirl.git"
+  },
+  "author": "KyButler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KyButler/Lily-the-Foxgirl/issues"
+  },
+  "homepage": "https://github.com/KyButler/Lily-the-Foxgirl#readme"
+}
