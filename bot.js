@@ -1,5 +1,3 @@
-const {prefix, token} = require('./config.json') // has token and prefix
-
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
@@ -7,11 +5,11 @@ client.once('ready', () => {
     console.log('Ready!');
 });
 
-client.login(token);
+client.login(process.env.BOT_TOKEN);
 
 
 client.on('message', message => {
-    if (!message.content.toLowerCase().startsWith(prefix) || message.author.bot) return; // if the message doesn't start with !lily, or is from a bot, return
+    if (!message.content.toLowerCase().startsWith(process.env.PREFIX) || message.author.bot) return; // if the message doesn't start with !lily, or is from a bot, return
     const args = message.content.slice(prefix.length).split(/ +/); // regex get rid of extra spaces, allows for input like 
     const command = args.shift().toLowerCase();
 
