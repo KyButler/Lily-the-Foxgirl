@@ -1,12 +1,10 @@
 {
   "name": "lily-the-foxgirl",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A foxgirl that helps around KyButler's Server",
   "main": "bot.js",
   "dependencies": {
-    "discord.js": "^12.2.0"
-  },
-  "devDependencies": {
+    "discord.js": "^12.2.0",
     "dotenv": "^8.2.0"
   },
   "scripts": {
